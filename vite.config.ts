@@ -22,9 +22,9 @@ export default defineConfig((configEnv) => ({
   build: {
     lib: {
       entry: resolve('src', 'components/index.ts'),
-      name: 'board-game-react-library',
+      name: 'react-form',
       formats: ['es', 'umd'],
-      fileName: (format) => `board-game-react-library.${format}.js`
+      fileName: (format) => `react-form.${format}.js`
     },
     rollupOptions: {
       external: [...Object.keys(packageJson.peerDependencies)],

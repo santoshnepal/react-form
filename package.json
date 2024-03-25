@@ -1,20 +1,20 @@
 {
-  "name": "board-game-react-library",
+  "name": "react-form",
   "private": false,
-  "version": "0.0.11",
+  "version": "0.0.1",
   "type": "module",
   "files": [
     "dist"
   ],
   "exports": {
     ".": {
-      "import": "./dist/board-game-react-library.es.js",
-      "require": "./dist/board-game-react-library.umd.js",
+      "import": "./dist/react-form.es.js",
+      "require": "./dist/react-form.umd.js",
       "types": "./dist/index.d.ts"
     }
   },
-  "main": "./dist/board-game-react-library.umd.js",
-  "module": "./dist/board-game-react-library.es.js",
+  "main": "./dist/react-form.umd.js",
+  "module": "./dist/react-form.es.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "dev": "vite",
@@ -47,5 +47,15 @@
     "vite-plugin-dts": "^3.7.3",
     "vite-plugin-linter": "^2.1.1",
     "vite-tsconfig-paths": "^4.3.2"
+  },
+  "repository": {
+    "name": "@santoshnepal/react-form",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/santoshnepal/react-form.git"
+    }
+  },
+  "publishConfig": {
+    "@santoshnepal:registry": "https://npm.pkg.github.com"
   }
 }
