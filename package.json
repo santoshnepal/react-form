@@ -48,13 +48,7 @@
     "vite-plugin-linter": "^2.1.1",
     "vite-tsconfig-paths": "^4.3.2"
   },
-  "repository": {
-    "name": "@santoshnepal/react-form",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/santoshnepal/react-form.git"
-    }
-  },
+  "repository": "https://github.com/santoshnepal/react-form.git",
   "publishConfig": {
     "@santoshnepal:registry": "https://npm.pkg.github.com"
   }
